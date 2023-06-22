@@ -1,0 +1,1 @@
+# Carpeta para el código generado en RAPID

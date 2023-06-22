@@ -1,0 +1,1 @@
+# Carpeta para CAD de piezas, gripper y eleemntos de la celda de ensamble
