@@ -16,11 +16,31 @@ Se desea establecer la velocidad máxima (mínimo tiempo de operación) que se p
 
 Sin duda la implementación de un sistema robotizado requerirá la adaptación del proceso (contenedor y estantería), sin embargo, se desea establecer la capacidad de un proceso originalmente manual de ser automatizado utilizando un manipulador robotizado.
 
+## Descripción del problema
+
+En la industria se encuentran distintos tipos de procesos susceptibles a ser optimizados con el objetivo de proteger a las personas, aumentar la calidad en los procesos y maximizar la eficiencia de producción. Los procesos de Pick&Place en el alistamiento de pedidos se componen de tareas tradicionalmente humanas. 
+
+El argumento a favor de la implementación de un sistema robotizado debe establecer al menos un desempeño conceptual basado en la pregunta: _**¿Que tan rápido lo puedo hacer?**_
+
+Se desea establecer la velocidad máxima (mínimo tiempo de operación) que se puede alcanzar utilizando de forma segura un brazo manipulador industrial. 
+
+Sin duda la implementación de un sistema robotizado requerirá la adaptación del proceso (contenedor y estantería), sin embargo, se desea establecer la capacidad de un proceso originalmente manual de ser automatizado utilizando un manipulador robotizado.
+
 ## Descripción de la solución propuesta
+Para la solución  propuesta se opto por hacer una herramienta sencilla a la que se acopla una ventosa que se encargara de succionar los objetos colocados en la repisa, estos son figuras geométricas (cuadrado, corazón, triángulo , exagono, trapecio),esta herramienta la podemos ver en **Gripper***. 
+
+Además se realizó el montaje de las condiciones de trabajo en Robostudio. En esta se incluyó el balde en las dos posiciones finales, la banda y el estante. También se incluyeron dos workobjects principales: el cajón (que contiene las figuras) y el mundo (la referencia con el piso y la posición espacial del robot). Esto permite modificar rápidamente los parámetros que pueden variar en el montaje, lo podemos ver a continuación en la **Celda de ensamble**.
 
 ### Gripper
+A continuacion vemos las vistas de la herramienta usada. Esta se manofacturo con corte laser.  El archivo lo podremos encontrar en la carpeta **CAD**
+![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/VISTAS%20HERRAMIENTAS.PNG)
+Ahora veremos el montaje de la herramienta con cada uno de los elementos (ventosa, gancho, punta) y su ubicación respecto a última articulación del robot en Robostudio.
+![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/Herramienta.jpg)
 
 ### Celda de ensamble
+Acá montamos todos los elementos en el espacio de trabajo del robot en RoboStudio.
+![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/Montaje%20en%20simulacion.jpg)
+
 
 ## Análisis
 
