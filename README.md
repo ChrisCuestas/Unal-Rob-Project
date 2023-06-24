@@ -27,7 +27,7 @@ Se desea establecer la velocidad máxima (mínimo tiempo de operación) que se p
 Sin duda la implementación de un sistema robotizado requerirá la adaptación del proceso (contenedor y estantería), sin embargo, se desea establecer la capacidad de un proceso originalmente manual de ser automatizado utilizando un manipulador robotizado.
 
 ## Descripción de la solución propuesta
-Para la solución  propuesta se opto por hacer una herramienta sencilla a la que se acopla una ventosa que se encargara de succionar los objetos colocados en la repisa, estos son figuras geométricas (cuadrado, corazón, triángulo , exagono, trapecio),esta herramienta la podemos ver en **Gripper***. 
+Para la solución  propuesta se opto por hacer una herramienta sencilla a la que se acopla una ventosa que se encargara de succionar los objetos colocados en la repisa, estos son figuras geométricas (cuadrado, corazón, triángulo , hexágono, trapecio),esta herramienta la podemos ver en **Gripper***. 
 
 Además se realizó el montaje de las condiciones de trabajo en Robostudio. En esta se incluyó el balde en las dos posiciones finales, la banda y el estante. También se incluyeron dos workobjects principales: el cajón (que contiene las figuras) y el mundo (la referencia con el piso y la posición espacial del robot). Esto permite modificar rápidamente los parámetros que pueden variar en el montaje, lo podemos ver a continuación en la **Celda de ensamble**.
 
