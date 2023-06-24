@@ -261,6 +261,10 @@ ENDPROC
 
 ### Comparación de tiempos de alistamiento y de operación
 
+El tiempo total en simulación fue de 4min 15s. Para cada rutina, el tiempo de alistamiento fue de 30s y el tiempo de operación fue de 2min aprox.
+
+Por otro lado, en la última iteración en la realidad, el tiempo total fue de 5min 30s aprox. El tiempo de alistamiento fue de 18s y el tiempo de operación fue de 2min 30s.
+
 ## Video Presentación
 
 [Link del video](https://youtu.be/iu0zcc_cYlo)
