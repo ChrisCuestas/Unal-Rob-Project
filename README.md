@@ -291,6 +291,8 @@ Por otro lado, en la última iteración en la realidad, el tiempo total fue de 5
 
 ## Conclusiones
 
-Se presentaron inconvenientes y se manejaron utilizando referencias a Workobjects en el programa, ya que en el espacio de trabajo siempre se modificaba la altura o la posición de los objetos.<br>
+El tiempo de simulación fue notablemente más rápido que la práctica real, lo anterior se debe a que el ambiente de simulación es ideal y supone un terreno plano para la práctica, no obstante fue necesario cambiar los work object trabajados, que en últimas alejarían la estantería y causarían un retraso en el tiempo. Lo anterior puede ser eludido generando un entorno de simulación más acorde al real.<br>
+
+Una buena distribución de Work Objects permite un más fácil aislamiento de trayectorias y procesos, que mejora la rapidez con la que se vuelve a producción dados cambios en el espacio de trabajo, como lo sería el cambio de posición u orientación de la estantería o banda transportadora en este caso por necesidad de otros grupos.<br>
 
 El uso de elementos planos en la herramienta ayuda a la sujeción de la ventosa. Además, la configuración alargada de la herramienta nos permitió agarrar los objetos dentro del estante con facilidad.
