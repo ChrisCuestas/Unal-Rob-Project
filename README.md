@@ -33,7 +33,7 @@ Además se realizó el montaje de las condiciones de trabajo en Robostudio. En e
 
 ### Gripper
 A continuacion vemos las vistas de la herramienta usada. Esta se manofacturo con corte laser.  El archivo lo podremos encontrar en la carpeta **CAD**
-![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/VISTAS%20HERRAMIENTAS.PNG)
+![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/VISTAS%20HERRAMIENTAS.PNG). <br>
 Ahora veremos el montaje de la herramienta con cada uno de los elementos (ventosa, gancho, punta) y su ubicación respecto a última articulación del robot en Robostudio.
 ![Vistas de la Herramienta](https://github.com/ChrisCuestas/Unal-Rob-Project/blob/main/IMAGES/Herramienta.jpg)
 
@@ -288,3 +288,9 @@ Por otro lado, en la última iteración en la realidad, el tiempo total fue de 5
 ## Video Presentación
 
 [Link del video](https://youtu.be/iu0zcc_cYlo)
+
+## Conclusiones
+
+Se presentaron inconvenientes y se manejaron utilizando referencias a Workobjects en el programa, ya que en el espacio de trabajo siempre se modificaba la altura o la posición de los objetos.<br>
+
+El uso de elementos planos en la herramienta ayuda a la sujeción de la ventosa. Además, la configuración alargada de la herramienta nos permitió agarrar los objetos dentro del estante con facilidad.
