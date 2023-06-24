@@ -264,3 +264,5 @@ ENDPROC
 ### Comparación de tiempos de alistamiento y de operación
 
 ## Video Presentación
+
+[Link del video](https://youtu.be/Drt9Z-_KPog)
