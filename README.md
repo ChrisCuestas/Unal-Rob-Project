@@ -20,8 +20,6 @@ Sin duda la implementación de un sistema robotizado requerirá la adaptación d
 
 ### Gripper
 
-### Piezas a transportar
-
 ### Celda de ensamble
 
 ## Análisis
